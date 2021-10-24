@@ -981,12 +981,13 @@ section {
   margin-top: 50px;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  /* margin-top: 8px; */
+  width: 74px;
   border-radius: 50%;
-  margin: -40px 0 0 40px;
-  position: relative;
-  z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.2);
+  margin: -40px 0 0 -37px;
+  position: absolute;
+  z-index: 100;
+  border: 1px solid #FFC451;
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
@@ -1309,6 +1310,7 @@ section {
 }
 #footer .footer-top .footer-info h3 span {
   color: #ffc451;
+  font-size: 30px;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
