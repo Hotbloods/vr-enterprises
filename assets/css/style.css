@@ -982,6 +982,7 @@ section {
 }
 .testimonials .testimonial-item .testimonial-img {
   /* margin-top: 8px; */
+  background: rgba(0,0,0,0.9);
   width: 74px;
   border-radius: 50%;
   margin: -40px 0 0 -37px;
